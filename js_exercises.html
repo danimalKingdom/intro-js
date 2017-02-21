@@ -150,6 +150,52 @@
       // var num = 234;
       // console.log(num.toString());
 
+
+
+      // EXERCISES
+      // create an array of three “pets” and output the second pet to the console. 
+      var pets = ["cat", "dog", "fish"];
+      console.log(pets[1]);
+
+      // add a 4th pet on a new line without changing the code of your original array.
+      pets.push("chicken");
+      console.log(pets);
+
+      //With your pets array you’ve just created, how can you get returned the index position of the last pet you added? 
+      console.log(pets.indexOf("chicken"));
+
+      //What gets returned if you search for the index of a pet that isn’t in your pets array?
+      // -1
+
+      // Create an object that represents a particular book, having properties of title, author, isbn, pages, and year of publication. 
+      // Now turn “book” into an array of “books” (add a second book). Add a 3rd book a new line without changing your code of “books”.
+
+      var books = [{
+        title: "The Hobbit",
+        author: "George RRRR Martin", 
+        isbn: 5932947325632,
+        year: 1492,
+        yop: 1493
+      }, 
+      {
+        title: "Harry Potter and the Goblet of Fire",
+        author: "JK Roflcopter", 
+        isbn: 92703942,
+        year: 1280,
+        yop: 1281
+      }];
+
+      var gameOfThrones = {
+        title: "A Song of Ice and Fire",
+        author: "George R R R Martin", 
+        isbn: 53027902984302,
+        year: 1500,
+        yop: 1501
+      };
+
+      books.push(gameOfThrones);
+      console.log(books);
+
     </script>
 
   </body>
